@@ -16,10 +16,6 @@ clone_script:
       && git checkout -qf %APPVEYOR_REPO_COMMIT%
       && git submodule update --init --recursive
 
-
-before_build:
-  - bash build.sh pre-build
-
 configuration: Release
 
 build_script:
