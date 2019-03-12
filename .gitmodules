@@ -1,0 +1,6 @@
+[submodule "osu-framework"]
+	path = osu-framework
+	url = https://github.com/hex11/osu-framework.git
+[submodule "osu"]
+	path = osu
+	url = https://github.com/hex11/osu.git
